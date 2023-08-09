@@ -155,7 +155,7 @@ After you enter your password, you should now see `GATEWAY:ONLINE` in the upper-
 
 Open a new Terminal/Bash window. In it, attach to the `gateway` instance to see its logs:
 ```
-docker attach gateway
+docker logs gateway
 ```
 See [Gateway](https://docs.hummingbot.org/gateway/) for more details on how to configure it for use with Hummingbot.
 
